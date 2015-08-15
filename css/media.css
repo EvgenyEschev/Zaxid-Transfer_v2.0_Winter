@@ -1,12 +1,12 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) { /* 1200 and less */
+@media only screen and (max-width : 1440px) { /* 1200 and less */
 	.service-block{
 		margin-bottom: 10px;
 	}
 	.container{
-	width: 90%;
+	width: 98%;
 	}
 	.navbar .navbar-nav {
 	margin-left: -150px;
@@ -26,8 +26,16 @@
 	padding: 15px 30px;
 	}
 }
+@media only screen and (max-width : 991px) {
+	#service3{
+		clear: left;
+	}
+	#service4{
+		clear: right;
+	}
+}
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
 
 	.navbar-default {
 		background-color: #F6F6F6;
@@ -72,7 +80,7 @@
 		margin-bottom: 10px;
 	}
 	.container{
-		width: 100%;
+		width: 98%;
 	}
 }
 /* Extra Small Devices, Phones */
@@ -124,9 +132,6 @@
 }
 
 @media only screen and (max-height : 480px) {/*HEIGHT FOR LANDSCAPE MODE */
-	.header-caption{
-	top: 20%;
-	}
 	#mainHeading{
 	font-size: 20px;
 	}  
