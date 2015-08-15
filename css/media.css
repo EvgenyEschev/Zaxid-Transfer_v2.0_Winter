@@ -133,15 +133,21 @@
 	#mainDescription{
 		font-size: 10px;
 		} 
+	.btn{
+	bottom: 0;
+	}
 }
 @media only screen and (max-height : 320px) {
 	.header-caption{
-	top: 20%;
+	top: 25% !important;
 	}
 	#mainHeading{
-	font-size: 20px;
+	font-size: 36px !important;
 	}  
 	#mainDescription{
-		font-size: 10px;
+		font-size: 18px !important;
 		} 
+	.btn{
+	bottom: 0;
+	}
 }
